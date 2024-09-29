@@ -3,14 +3,14 @@ import { Link } from "react-router-dom";
 
 function HeaderComponent() {
   return (
-    <div>
-        <div>
-          <img src="./logo2.png" width="200" height="100" alt="header-logo" style={{objectFit:"contain"}}/>
+    <div id="header-container">
+        <div id="header-logo">
+          <img src="./logo2.png" width="200" height="100" alt="header-logo" className="header-logo-img"/>
         </div>
-        <div>
-          <Link to="/"><FaHouse/>Home</Link>
-          <Link to="/browse-books"><FaBookAtlas/> Books</Link>
-          <Link to="/add-new-book"><FaBookMedical/> Add New Book</Link>
+        <div className="header-nav-links">
+          <Link to="/" className="nav-links"><FaHouse/>Home</Link>
+          <Link to="/browse-books" className="nav-links"><FaBookAtlas/> Browse Books</Link>
+          <Link to="/add-new-book" className="nav-links"><FaBookMedical/> Add New Book</Link>
         </div>
     </div>
   );
