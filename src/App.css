@@ -189,6 +189,20 @@
   color:brown;
  }
 
+ .copyright-div
+ {
+  font-weight: 500;
+  font-size: .9rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:100%;
+  padding: 6px;
+  font-family: fredoka;
+  background:rgb(237, 245, 246);
+  border-top: 1px solid gray;
+ }
+
 /*========================================================= Meadia Query================================== */
 
 @media (max-width:760px) {
