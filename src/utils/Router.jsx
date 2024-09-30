@@ -15,11 +15,11 @@ const BrowseRouter=createBrowserRouter([{
             element:<HomeComponent/>
         },
         {
-            path:"/Add-new-book",
+            path:"/add-new-book",
             element:<AddNewBook/>
         },
         {
-            path:"/browse-books",
+            path:"/books",
             element:<BrowseBooks/>
         }
     ]

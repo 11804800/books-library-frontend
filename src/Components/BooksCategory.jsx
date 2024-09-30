@@ -1,7 +1,7 @@
 import { FaArrowLeft } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 
-function BookDetails(props) {
+const BooksCategory = (props) => {
   return (
     <div className="container">
       <div className="breadcrumb-container">
@@ -12,12 +12,14 @@ function BookDetails(props) {
         /
         <Link to="/books" className="breadcrumb-link">
           <FaArrowLeft size={12} />
-          Browse Books
+          Home
         </Link>
         /
+        <p>Category</p>
       </div>
     </div>
   );
-}
+};
 
-export default BookDetails;
+
+export default BooksCategory;

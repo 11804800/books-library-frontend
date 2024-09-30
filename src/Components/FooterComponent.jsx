@@ -20,7 +20,7 @@ const FooterComponent = () => {
             <Link to="/" className="footer-link">
               Home
             </Link>
-            <Link to="/browse-books" className="footer-link">
+            <Link to="/books" className="footer-link">
               Browse Books
             </Link>
             <Link to="/add-new-book" className="footer-link">
