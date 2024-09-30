@@ -2,6 +2,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  overflow-x: hidden;
 }
 
 .container {
@@ -54,7 +55,7 @@
   display: flex;
   justify-content: space-between;
   padding: 12px;
-  height: 8dvh;
+  height: 9dvh;
   background: rgb(237, 242, 247);
 }
 
@@ -66,7 +67,7 @@
 /* header logo image */
 .header-logo-img {
   object-fit: contain;
-  height: 6dvh;
+  height: 5dvh;
 }
 
 /* nav links container */
@@ -149,7 +150,7 @@
 .footer-logo-img {
   object-fit: contain;
   height: 300px;
-  width:80%;
+  width:70%;
 }
 
 /* footer link btns */
@@ -214,6 +215,139 @@
   font-family: fredoka;
   background: rgb(237, 245, 246);
   border-top: 1px solid gray;
+}
+
+/*============================================ Home component styling ===========================================*/
+.home-container
+{
+  padding-bottom: 23px;
+  width:100dvw;
+}
+.home-welcome-div
+{
+  width: 100%;
+  display: flex;
+  gap:12px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 12px 0px 12px ;
+  background: rgb(237, 242, 247);
+  padding-bottom: 23px;
+}
+
+.message-div
+{
+  width:45%;
+  height: 100%;
+  padding: 12px;
+  display: flex;
+  justify-content:center;
+  flex-direction: column;
+  gap:5px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.image-container
+{
+  width: 45%;
+  display: flex;
+  justify-content: flex-start;
+}
+/* welcome message div image */
+.banner-img
+{
+  object-fit: contain;
+  height: 60dvh;
+}
+
+.intro-div
+{
+  display: flex;
+  flex-direction: column;
+  padding: 4px;
+  gap:2px;
+
+}
+
+.welcome-text
+{
+  font-size: 2.75rem;
+  font-family:fredoka;
+  font-weight: 500;
+}
+
+.intro-heading
+{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 3.8rem;
+}
+.intro-text
+{
+  color: rgb(158, 158, 158);
+  font-weight: 600;
+  font-size: .93rem;
+}
+
+.quote
+{
+  background: rgb(244, 232, 232);
+  font-family: Roboto;
+  padding: 12px;
+  width: 80%;
+}
+#author
+{
+  color: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  font-size: .8rem;
+  text-align: end;
+}
+.outro
+{
+  display: flex;
+  flex-direction: column;
+  gap:23px;
+  padding-top: 12px;
+  padding-right: 12px;
+  padding-bottom: 12px;
+  padding-left: 4px;
+}
+
+.outro-text
+{
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.65);
+  font-size: 1.1rem;
+  width: 80%;
+}
+
+.intro-page-btn
+{
+  padding: 4px 24px;
+  border-radius: 18px;
+  border:none;
+  font-weight: 600;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  outline:none;
+  box-shadow: 1px 2px 3px 3px rgba(0, 0, 0, 0.2);
+  width: fit-content;
+  color: white;
+  text-decoration: none;
+  background: rgb(109, 57, 128);
+  transition: all ease .2s;
+}
+
+.intro-page-btn:hover
+{
+  box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.2);
+  background: rgb(78, 47, 89);
+}
+
+.intro-page-btn:active
+{
+  border:1px solid rgb(78, 47, 89);
+  background: white;
+  color: rgb(78, 47, 89);
 }
 
 /* ============================================Browse Books Component==========================================  */
@@ -323,14 +457,15 @@
 
 .home-link
 {
-  padding: 4px 12px;
-  border-radius: 12px;
+  padding: 4px 16px;
+  border-radius: 14px;
   color:white;
   background:rgb(104, 193, 77);
   font-family: fredoka;
   text-decoration: none;
   box-shadow: 1px 2px 3px 3px rgba(0, 0, 0, 0.2);
   transition: all ease .1s;
+  font-weight: 600;
 }
 
 .home-link:hover
@@ -368,11 +503,24 @@
 }
 /*========================================================= Meadia Query================================== */
 
-@media (max-width: 760px) {
+@media (max-width: 768px) {
+
+  .image-container,.message-div,.outro,.quote
+  {
+    width: 100%;
+  }
+  #header-logo 
+  {
+    width:100%;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 0;
+  }
   #header-container {
     height: 100%;
     flex-direction: column;
     gap: 12px;
+    background: white;
   }
 
   .header-nav-links {
@@ -381,7 +529,7 @@
     width: 100%;
     align-items: flex-start;
     padding: 23px;
-    background: rgb(237, 242, 247);
+    background: rgb(229, 235, 240);
   }
 
   .breadcrumb-container
@@ -416,5 +564,10 @@
   .add-new-book-form
   {
     width:100%;
+  }
+
+  .home-welcome-div
+  {
+    flex-direction: column;
   }
 }

@@ -1,7 +1,11 @@
 import { FaArrowLeft } from "react-icons/fa6";
-import { Link } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 
-function BookDetails(props) {
+function BookDetails() {
+
+  const params=useParams();
+
+
   return (
     <div className="container">
       <div className="breadcrumb-container">
@@ -14,7 +18,7 @@ function BookDetails(props) {
           <FaArrowLeft size={12} />
           Browse Books
         </Link>
-        /
+        /{" "}{params.id}
       </div>
     </div>
   );

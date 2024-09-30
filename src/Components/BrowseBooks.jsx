@@ -27,7 +27,7 @@ function BrowseBooks() {
               </div>
               <div className="book-card-body">
                 <p>{item?.title}</p>
-                <Link to="/" className="book-detail-link">View Details</Link>
+                <Link to={`/books/${item.id}`} className="book-detail-link">View Details</Link>
               </div>
             </div>
           );

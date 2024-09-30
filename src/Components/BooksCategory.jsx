@@ -1,7 +1,10 @@
 import { FaArrowLeft } from "react-icons/fa6";
-import { Link } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 
 const BooksCategory = (props) => {
+
+  const params=useParams();
+
   return (
     <div className="container">
       <div className="breadcrumb-container">
@@ -12,10 +15,12 @@ const BooksCategory = (props) => {
         /
         <Link to="/books" className="breadcrumb-link">
           <FaArrowLeft size={12} />
-          Home
+          Browse Books
         </Link>
         /
-        <p>Category</p>
+        <p>Category</p> 
+        /
+        {params?.category}
       </div>
     </div>
   );

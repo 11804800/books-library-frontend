@@ -5,7 +5,7 @@ function HeaderComponent() {
   return (
     <div id="header-container">
         <div id="header-logo">
-          <img src="./footer-logo.png" width="200" height="100" alt="header-logo" className="header-logo-img"/>
+          <img src="/footer-logo.png" width="200" height="100" alt="header-logo" className="header-logo-img"/>
         </div>
         <div className="header-nav-links">
           <Link to="/" className="nav-links"><FaHouse/>Home</Link>
