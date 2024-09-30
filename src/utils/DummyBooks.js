@@ -494,4 +494,142 @@ export const BOOKS = [
       "A collection of mythopoeic stories about the history of Middle-earth.",
     cover_image: "/image/50.jpg",
   },
+  {
+    id:51,
+    title:"Pride & Prejudice",
+    author:"Jane Austen",
+    publication_year:1813,
+    genre:["Romance","Satire","Classic"],
+    description:"it tells the love story of Elizabeth Bennet and Mr. Darcy, both of whom have to overcome their biases in order to end up together",
+    cover_image:"/image/51.png",
+    popular:true
+  },
+  {
+    id:52,
+    title:"Outlander",
+    author:"Diana Gabaldon",
+    description:"Outlander is a historical fantasy novel by American writer Diana Gabaldon, first published in 1991. Initially set around the time of the Second World War",
+    genre:["Romance","Drama","Adventure","Mystery","Fantasy"],
+    cover_image:"/image/52.jpg",
+    publication_year:1991,
+    popular:true
+  },
+  {
+    id:53,
+    title:"The NoteBook",
+    author:"Nicholas Sparks",
+    description:"This Book tell a story about a 1940s summer romance between Allie (Rachel McAdams), the daughter of wealthy parents, and Noah (Ryan Gosling), a working-class boy",
+    genre:["Romance","Comedy","Drama"],
+    cover_image:"/image/53.jpg",
+    publication_year:1996,
+    popular:true
+  },
+  {
+    id:54,
+    title:"Paradise Lost",
+    author:"John Milton",
+    description:"The poem is a retelling of the story of Adam and Eve from the biblical book of Genesis which describes the creation of Heaven and Earth and of Adam and Eve.",
+    genre:["Epic","Poetry"],
+    cover_image:"/image/54.png",
+    publication_year:0,
+    popular:true
+  },
+  {
+    id:55,
+    title:"The Epic of GilGamesh",
+    author:"Nancy Sanders",
+    description:"This epic book tells the story of a king, Gilgamesh, whose mother is a goddess. He rules the city of Uruk (now Warka in southern Iraq)",
+    genre:["Epic","Poetry"],
+    cover_image:"/image/55.jpg",
+    publication_year:1914,
+    popular:true
+  },
+  {
+    id:56,
+    title:"The Song Of Achilles",
+    author:"Madeline Miller",
+    description:", it is a retelling of the Trojan War as told from the perspective of Patroclus.",
+    genre:["Romance","War","Fantasy","Historical Fiction"],
+    cover_image:"/image/56.jpg",
+    publication_year:2011
+  },
+  {
+    id:57,
+    title:"The Lightening Thief",
+    author:"Rick Riordan",
+    description:"it is a light-hearted fantasy about a modern 12-year-old boy who learns that his true father is Poseidon, the Greek god of the sea",
+    genre:["Mythology","Historical Fiction","Fantasy"],
+    cover_image:"/image/57.jpg",
+    publication_year:2005
+  },
+  {
+    id:58,
+    title:"Ghosts of the Hill House",
+    author:"Anita Krishna",
+    description:"he plot alternates between two timelines, following five adult siblings whose paranormal experiences at Hill House continue to haunt them in the present day",
+    genre:["Horror","Drama"],
+    cover_image:"/image/58.png",
+    publication_year:2019,
+    popular:true
+  },
+  {
+    id:59,
+    title:"Haunting of Hill House",
+    author:"Shirley Jackson",
+    description:" It was a finalist for the National Book Award and has been made into two feature films, a play, and is the basis of a Netflix series.",
+    genre:["Horror","Gothic","Mystery","Drama"],
+    cover_image:"/image/59.jpg",
+    publication_year:1959,
+    popular:true
+  },
+  {
+    id:61,
+    title:"Ghost Stories",
+    author:"Peter Staub",
+    description:"Ghost Story By Peter Staub. First published in 1979, Peter Staub's Ghost Story follows the story of a group of elderly men called the Chowder Society.",
+    genre:["Horror","Drama","Fantasy"],
+    cover_image:"/image/61.jpg",
+    publication_year:1979,
+    popular:true
+  },
+  {
+    id:60,
+    title:"The Cantervile Ghost",
+    author:"Oscar Wilde",
+    description:"The main idea of The Canterville Ghost is the relationship between an artist or a performer and their audience. In the story, the ghost, Sir Simon, is the performer, and the audience is the Otis family",
+    genre:["Horror","Drama","Fantasy"],
+    cover_image:"/image/60.png",
+    publication_year:1979,
+    popular:true
+  },
+  {
+    id:62,
+    title:"Catch-22",
+    author:"Joseph Heller",
+    description:"A Catch-22 is a problem for which the only solution is denied by a circumstance inherent in the problem or by a rule.",
+    genre:["Absurdist Fiction","Satire","Comedy","War","Historical Fiction"],
+    cover_image:"/image/62.jpg",
+    publication_year:1961,
+    popular:true
+  },
+  {
+    id:63,
+    title:"Waiting For Godot",
+    author:"Samuel Backett",
+    description:"It was originally written in French and titled En attendant Godot. It was published in 1952 and it premiered in 1953 in Paris.",
+    genre:["Absurdist Fiction","Comedy"],
+    cover_image:"/image/63.jpg",
+    publication_year:1952,
+    popular:true
+  },
+  {
+    id:64,
+    title:"The Plague",
+    author:"Albert Camus",
+    description:"It tells the story from the point of view of a narrator in the midst of a plague sweeping the French Algerian city of Oran.",
+    genre:["Absurdist Fiction","Satire","Comedy","War","Historical Fiction"],
+    cover_image:"/image/64.jpg",
+    publication_year:1947,
+    popular:true
+  }
 ];

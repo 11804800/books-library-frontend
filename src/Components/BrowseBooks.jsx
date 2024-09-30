@@ -1,10 +1,12 @@
-import { useState } from "react";
-import { BOOKS } from "../utils/DummyBooks";
 import { Link } from "react-router-dom";
 import { FaArrowLeft } from "react-icons/fa6";
+import { useSelector } from "react-redux";
 
 function BrowseBooks() {
-  const [books, setBooks] = useState(BOOKS);
+  const books=useSelector((state)=>{
+    return state.books.books
+  });
+
 
   return (
     <div className="container">
