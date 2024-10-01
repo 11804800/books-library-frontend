@@ -102,7 +102,7 @@ function HomeComponent() {
           />
           <p>Mythology Genre</p>
           </Link>
-          <Link to="/category/Science-Fiction" className="category-link-card">
+          <Link to="/category/Science Fiction" className="category-link-card">
           <img
             src="/category/sci-fi.png"
             alt="Sci-fi"

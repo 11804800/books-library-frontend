@@ -150,7 +150,7 @@
 .footer-logo-img {
   object-fit: contain;
   height: 300px;
-  width:70%;
+  width: 70%;
 }
 
 /* footer link btns */
@@ -218,236 +218,208 @@
 }
 
 /*============================================ Home component styling ===========================================*/
-.home-container
-{
+.home-container {
   padding-bottom: 23px;
-  width:100dvw;
+  width: 100dvw;
 }
-.home-welcome-div
-{
+.home-welcome-div {
   width: 100%;
   display: flex;
-  gap:12px;
+  gap: 12px;
   align-items: center;
   justify-content: space-between;
-  padding: 12px 12px 0px 12px ;
+  padding: 12px 12px 0px 12px;
   background: rgb(237, 242, 247);
   padding-bottom: 23px;
 }
 
-.message-div
-{
-  width:45%;
+.message-div {
+  width: 45%;
   height: 100%;
   padding: 12px;
   display: flex;
-  justify-content:center;
+  justify-content: center;
   flex-direction: column;
-  gap:5px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  gap: 5px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
-.image-container
-{
+.image-container {
   width: 45%;
   display: flex;
   justify-content: flex-start;
 }
 /* welcome message div image */
-.banner-img
-{
+.banner-img {
   object-fit: contain;
   height: 60dvh;
 }
 
-.intro-div
-{
+.intro-div {
   display: flex;
   flex-direction: column;
   padding: 4px;
-  gap:2px;
-
+  gap: 2px;
 }
 
-.welcome-text
-{
+.welcome-text {
   font-size: 2.75rem;
-  font-family:fredoka;
+  font-family: fredoka;
   font-weight: 500;
 }
 
-.intro-heading
-{
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.intro-heading {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 3.8rem;
 }
-.intro-text
-{
+.intro-text {
   color: rgb(158, 158, 158);
   font-weight: 600;
-  font-size: .93rem;
+  font-size: 0.93rem;
 }
 
-.quote
-{
+.quote {
   background: rgb(244, 232, 232);
   font-family: Roboto;
   padding: 12px;
   width: 80%;
 }
-#author
-{
+#author {
   color: rgba(0, 0, 0, 0.8);
   width: 100%;
-  font-size: .8rem;
+  font-size: 0.8rem;
   text-align: end;
 }
-.outro
-{
+.outro {
   display: flex;
   flex-direction: column;
-  gap:23px;
+  gap: 23px;
   padding-top: 12px;
   padding-right: 12px;
   padding-bottom: 12px;
   padding-left: 4px;
 }
 
-.outro-text
-{
+.outro-text {
   font-weight: 600;
   color: rgba(0, 0, 0, 0.65);
   font-size: 1.1rem;
   width: 80%;
 }
 
-.intro-page-btn
-{
+.intro-page-btn {
   padding: 4px 24px;
   border-radius: 18px;
-  border:none;
+  border: none;
   font-weight: 600;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  outline:none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  outline: none;
   box-shadow: 1px 2px 3px 3px rgba(0, 0, 0, 0.2);
   width: fit-content;
   color: white;
   text-decoration: none;
   background: rgb(109, 57, 128);
-  transition: all ease .2s;
+  transition: all ease 0.2s;
 }
 
-.intro-page-btn:hover
-{
+.intro-page-btn:hover {
   box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.2);
   background: rgb(78, 47, 89);
 }
 
-.intro-page-btn:active
-{
-  border:1px solid rgb(78, 47, 89);
+.intro-page-btn:active {
+  border: 1px solid rgb(78, 47, 89);
   background: white;
   color: rgb(78, 47, 89);
 }
 
-.category-container
-{
-  width:100%;
+.category-container {
+  width: 100%;
   height: 100%;
   padding: 12px;
   display: flex;
   flex-direction: column;
-  gap:34px;
-  font-family:Roboto;
+  gap: 34px;
+  font-family: Roboto;
   justify-content: center;
   align-items: center;
 }
 
-.category-container h1
-{
+.category-container h1 {
   font-family: fredoka;
   font-weight: 500;
   position: relative;
   height: 100%;
 }
 
-.category-container h1::before
-{
+.category-container h1::before {
   position: absolute;
-  top:0;
-  left:0;
-  content: '';
-  border-bottom:3px solid rgb(111, 183, 203);
+  top: 0;
+  left: 0;
+  content: "";
+  border-bottom: 3px solid rgb(111, 183, 203);
   border-radius: 2px;
-  width:90px;
-  height:35px;
-  
+  width: 90px;
+  height: 35px;
 }
 
-.category-list-container
-{
-  width:100%;
+.category-list-container {
+  width: 100%;
   height: 100%;
   display: flex;
   justify-content: center;
   padding: 12px;
-  gap:20px;
+  gap: 20px;
   flex-wrap: wrap;
 }
 
-.category-img
-{
-  width:100%;
+.category-img {
+  width: 100%;
   height: 100%;
   aspect-ratio: 3/2;
   object-fit: fill;
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
-  transition: all ease .34s;
+  transition: all ease 0.34s;
 }
-.category-img:hover
-{
+.category-img:hover {
   scale: 1.2;
 }
 
-.category-link-card
-{
+.category-link-card {
   text-decoration: none;
-  width:300px;
-  height:340px;
+  width: 300px;
+  height: 340px;
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  gap:12px;
+  gap: 12px;
   box-shadow: 1px 2px 3px 4px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   position: relative;
 }
-.category-link-card p
-{
+.category-link-card p {
   position: absolute;
   font-weight: 600;
-  color:white;
+  color: white;
   text-decoration: none;
   padding: 4px 12px;
   background: rgba(0, 0, 0, 0.56);
   font-family: fredoka;
 }
 
-.popular-books-container
-{
+.popular-books-container {
   border-top: 2px solid rgb(236, 227, 227);
-  padding:44px 6px;
+  padding: 44px 6px;
   display: flex;
   flex-direction: column;
-  gap:23px;
+  gap: 23px;
   justify-content: center;
   align-items: center;
   height: 100%;
   width: 100%;
 }
-.popular-books-container h1
-{
+.popular-books-container h1 {
   position: relative;
   font-family: fredoka;
   font-weight: 500;
@@ -455,63 +427,117 @@
   height: 44px;
 }
 
-.popular-books-container h1::after
-{
+.popular-books-container h1::after {
   position: absolute;
-  top:0;
-  right:0;
-  content: '';
-  border-bottom:3px solid rgb(111, 183, 203);
+  top: 0;
+  right: 0;
+  content: "";
+  border-bottom: 3px solid rgb(111, 183, 203);
   border-radius: 2px;
-  width:90px;
-  height:38px;
+  width: 90px;
+  height: 38px;
 }
 
-.books-carusel
-{
+.books-carusel {
   box-shadow: 1px 2px 4px 4px rgba(0, 0, 0, 0.2);
   width: 98%;
   height: 100%;
   display: flex;
-  gap:12px;
+  gap: 12px;
   overflow-x: scroll;
   padding: 8px;
+  border-radius: 4px;
 }
 
-
-.books-carusel::-webkit-scrollbar
-{
+.books-carusel::-webkit-scrollbar {
   background: white;
   width: 10px;
   border-radius: 4px;
   height: 10px;
 }
 
-.books-carusel::-webkit-scrollbar-thumb
-{
+.books-carusel::-webkit-scrollbar-thumb {
   background-color: rgb(25, 87, 122);
   border: 2px solid white;
   border-radius: 12px;
 }
 
-.book-card
-{
+.book-card {
   min-width: 320px;
   height: 100%;
   box-shadow: 1px 3px 4px 2px rgba(0, 0, 0, 0.2);
   display: flex;
   flex-direction: column;
-  gap:12px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  gap: 12px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-weight: 500;
 }
 
-.title
-{
+.title {
   font-weight: 600;
 }
 
 /* ============================================Browse Books Component==========================================  */
+
+.search-container {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.search-result {
+  display: flex;
+  gap: 6px;
+  font-weight: 600;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  align-items: center;
+  color: gray;
+}
+
+.search-input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background: rgb(246, 239, 244);
+  padding: 5px 6px;
+}
+.search-input {
+  padding: 6px 12px;
+  font-size: 0.9rem;
+  outline: none;
+  border: none;
+  width: 550px;
+  height: 39px;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border: 1px solid black;
+  border-right: none;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.search-input:focus {
+  background: #f0f0f6;
+}
+
+.search-btn {
+  padding: 6px 8px;
+  border: none;
+  outline: none;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 39px;
+  border: 1px solid black;
+  border-left: none;
+  background: #f6b9b9;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
 .books-container {
   display: flex;
   flex-wrap: wrap;
@@ -529,10 +555,12 @@
   display: flex;
   flex-direction: column;
   border-radius: 4px;
+  width: 320px;
+  height: 100%;
 }
 
 .book-card-img-container {
-  width: 320px;
+  width: 100%;
   height: 320px;
   overflow: hidden;
 }
@@ -552,25 +580,36 @@
 
 .book-card-body {
   display: flex;
-  padding: 6px;
+  padding-top: 6px;
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-bottom: 12px;
   background: #f5f9fb;
   flex-direction: column;
-  gap:4px;
+  gap: 4px;
   border-bottom-right-radius: 4px;
   border-bottom-left-radius: 4px;
 }
 
-.book-detail-link
-{
+.book-detail-link {
   font-family: Roboto;
-  color:white;
+  color: white;
   background: navy;
   padding: 4px 8px;
-  font-size: .825rem;
-  width:fit-content;
+  font-size: 0.825rem;
+  width: fit-content;
   text-decoration: none;
   box-shadow: 1px 2px 3px 3px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
+}
+
+.book-description {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  font-weight: 500;
+  color: grey;
+  padding: 4px 0px;
 }
 
 /* ============================Add New Book Component ====================*/
@@ -584,73 +623,64 @@
   border-radius: 4px;
 }
 
-.add-new-book-form-container h1
-{
+.add-new-book-form-container h1 {
   font-size: 1.27rem;
   font-family: Roboto;
   font-weight: 600;
 }
 
-.add-new-book-form
-{
+.add-new-book-form {
   display: flex;
   flex-direction: column;
-  gap:12px;
+  gap: 12px;
   padding: 12px;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-weight: 600;
 }
 
-
 /* Error Page */
 
-.error-container
-{
+.error-container {
   display: flex;
   width: 100dvw;
   height: 100dvh;
   flex-direction: column;
-  gap:23px;
+  gap: 23px;
   padding: 12px;
   justify-content: center;
   align-items: center;
 }
 
-.home-link
-{
+.home-link {
   padding: 4px 16px;
   border-radius: 14px;
-  color:white;
-  background:rgb(104, 193, 77);
+  color: white;
+  background: rgb(104, 193, 77);
   font-family: fredoka;
   text-decoration: none;
   box-shadow: 1px 2px 3px 3px rgba(0, 0, 0, 0.2);
-  transition: all ease .1s;
+  transition: all ease 0.1s;
   font-weight: 600;
 }
 
-.home-link:hover
-{
+.home-link:hover {
   box-shadow: 1px 1px 1px 2px rgba(0, 0, 0, 0.2);
-  background:rgb(100, 189, 73);
+  background: rgb(100, 189, 73);
 }
 
-.home-link:active
-{
-  color:rgb(100, 189, 73);
-  border:1px solid rgb(100, 189, 73);
+.home-link:active {
+  color: rgb(100, 189, 73);
+  border: 1px solid rgb(100, 189, 73);
   background: white;
 }
 
-.error-img
-{
-  width:100%;
+.error-img {
+  width: 100%;
   height: 320px;
   object-fit: contain;
 }
 
-
-.sub-container{
+.sub-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -658,21 +688,24 @@
   flex-direction: column;
 }
 
-.sub-container p
-{
-  color:rgba(0, 0, 0, 0.4)
+.sub-container p {
+  color: rgba(0, 0, 0, 0.4);
 }
 /*========================================================= Meadia Query================================== */
 
 @media (max-width: 768px) {
+  .search-input {
+    width: 300px;
+  }
 
-  .image-container,.message-div,.outro,.quote
-  {
+  .image-container,
+  .message-div,
+  .outro,
+  .quote {
     width: 100%;
   }
-  #header-logo 
-  {
-    width:100%;
+  #header-logo {
+    width: 100%;
     display: flex;
     justify-content: flex-start;
     padding-left: 0;
@@ -693,8 +726,7 @@
     background: rgb(229, 235, 240);
   }
 
-  .breadcrumb-container
-  {
+  .breadcrumb-container {
     width: 100%;
   }
 
@@ -717,18 +749,15 @@
     padding-bottom: 23px;
   }
 
-  .add-new-book-form-container
-  {
+  .add-new-book-form-container {
     width: 100%;
   }
 
-  .add-new-book-form
-  {
-    width:100%;
+  .add-new-book-form {
+    width: 100%;
   }
 
-  .home-welcome-div
-  {
+  .home-welcome-div {
     flex-direction: column;
   }
 }
