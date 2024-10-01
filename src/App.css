@@ -612,7 +612,141 @@
   padding: 4px 0px;
 }
 
-/* ============================Add New Book Component ====================*/
+/* ============================Books Details Component =============================*/
+
+.back-btn-div
+{
+  display: flex;
+  justify-content: start;
+  padding: 5px;
+  width: 100%;
+  height: 100%;
+  background: rgb(252, 249, 249);
+}
+
+.back-btn
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: .89rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 600;
+  color: rgb(60, 57, 57);
+  border: none;
+  background: transparent;
+}
+
+.back-btn:hover
+{
+  color: brown;
+}
+
+.book-detail-container
+{
+  width:100%;
+  height: 80dvh;
+  display: flex;
+  justify-content:center;
+  align-items: flex-start;
+}
+
+.book-image-con
+{
+  width:50%;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.book-img
+{
+  width:100%;
+  height: 100%;
+  border-radius: 4px;
+  object-fit: contain;
+}
+
+.book-details
+{
+  display: flex;
+  width: 50%;
+  height: 100%;
+  flex-direction: column;
+  gap:16px;
+  padding: 16px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.book-title
+{
+  font-size: 2.56rem;
+  display: flex;
+  align-items: flex-start;
+}
+
+.book-genre-div
+{
+  display: flex;
+  flex-direction: column;
+  gap:8px;
+}
+
+.book-genre{
+  display: flex;
+  gap: 6px;
+  font-weight: 600;
+  flex-wrap: wrap;
+}
+
+/* for description div */
+.book-description-div
+{
+  display: flex;
+  flex-direction: column;
+  gap:8px;
+}
+
+/* for all the book detail div */
+
+.tag
+{
+  background: brown;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: .8rem;
+  text-transform: capitalize;
+}
+.details-div
+{
+  display: flex;
+  gap:8px
+}
+
+/* for All the book detail data */
+.name
+{
+  font-weight: 600;
+}
+
+.heading
+{
+  font-weight:600;
+  font-size: 1.1rem;
+}
+
+.genre-name{
+  border:1px solid black;
+  padding: 4px 8px;
+  width: fit-content;
+  border-radius: 2px;
+  font-weight: 600;
+}
+/* ============================Add New Book Component ==============================*/
 .add-new-book-form-container {
   display: flex;
   flex-direction: column;
@@ -759,5 +893,18 @@
 
   .home-welcome-div {
     flex-direction: column;
+  }
+
+  .book-detail-container
+  {
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+  }
+
+  .book-image-con,.book-details,.book-title
+  {
+    width: 100%;
+    height: 100%;
   }
 }
