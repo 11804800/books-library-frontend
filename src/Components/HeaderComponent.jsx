@@ -1,11 +1,12 @@
 import { FaHouse, FaBookMedical,FaBookAtlas } from "react-icons/fa6";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 function HeaderComponent() {
+  const route=useNavigate();
   return (
     <div id="header-container">
         <div id="header-logo">
-          <img src="/footer-logo.png" width="200" height="100" alt="header-logo" className="header-logo-img"/>
+          <img src="/footer-logo.png" width="200" height="100" alt="header-logo" className="header-logo-img" onClick={()=>route("/")}/>
         </div>
         <div className="header-nav-links">
           <Link to="/" className="nav-links"><FaHouse/>Home</Link>

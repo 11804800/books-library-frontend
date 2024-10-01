@@ -117,6 +117,7 @@ export const BOOKS = [
     description:
       "An epic poem that follows the journey of the soul through Hell, Purgatory, and Heaven.",
     cover_image: "/image/12.jpg",
+    popular:true
   },
   {
     id: 13,
@@ -156,7 +157,7 @@ export const BOOKS = [
     genre: ["Dystopian", "Science Fiction"],
     description:
       "A dystopian vision of a future society obsessed with pleasure and conformity.",
-    cover_image: "./image/16.jpg",
+    cover_image: "/image/16.jpg",
   },
   {
     id: 17,
@@ -166,7 +167,7 @@ export const BOOKS = [
     genre: ["Adventure", "Historical Fiction"],
     description:
       "An adventure novel of revenge, love, and redemption set in the early 19th century.",
-    cover_image:"./image/17.jpg",
+    cover_image:"/image/17.jpg",
   },
   {
     id: 18,
@@ -176,7 +177,7 @@ export const BOOKS = [
     genre: ["Classic", "Romance"],
     description:
       "A tragic love story set against the backdrop of Russian high society.",
-    cover_image: "./image/18.jpg",
+    cover_image: "/image/18.jpg",
   },
   {
     id: 19,
@@ -186,7 +187,7 @@ export const BOOKS = [
     genre: ["Fiction", "Philosophical"],
     description:
       "A philosophical novel about a shepherd boy's journey to find his personal legend.",
-    cover_image:"./image/19.jpg",
+    cover_image:"/image/19.jpg",
   },
   {
     id: 20,
@@ -196,7 +197,7 @@ export const BOOKS = [
     genre: ["Adventure", "Satire"],
     description:
       "A satirical novel following Huck Finn's journey down the Mississippi River.",
-    cover_image: "./image/20.png",
+    cover_image: "/image/20.png",
   },
   {
     id: 21,
@@ -206,7 +207,7 @@ export const BOOKS = [
     genre: ["Epic", "Mythology"],
     description:
       "An ancient Greek epic poem about the Trojan War and the hero Achilles.",
-    cover_image: "./image/21.jpg",
+    cover_image: "/image/21.jpg",
   },
   {
     id: 22,
@@ -217,6 +218,7 @@ export const BOOKS = [
     description:
       "A thrilling epic about the quest to destroy the One Ring and save Middle-earth from the dark lord Sauron.",
     cover_image: "/image/22.jpg",
+    popular:true
   },
   {
     id: 23,
@@ -226,7 +228,7 @@ export const BOOKS = [
     genre: ["Classic", "Satire"],
     description:
       "A satirical novel about a deluded knight and his faithful squire, Sancho Panza.",
-    cover_image: "./image/23.png",
+    cover_image: "/image/23.png",
   },
   {
     id: 24,
@@ -236,7 +238,7 @@ export const BOOKS = [
     genre: ["Gothic", "Science Fiction"],
     description:
       "A novel about the creation of a monster and the consequences of playing god.",
-    cover_image:"./image/24.png",
+    cover_image:"/image/24.png",
   },
   {
     id: 25,
@@ -246,7 +248,8 @@ export const BOOKS = [
     genre: ["Fantasy", "Children's Literature"],
     description:
       "A whimsical tale about a girl named Alice who falls into a magical world.",
-    cover_image:"./image/25.jpg",
+    cover_image:"/image/25.jpg",
+    popular:true
   },
   {
     id: 26,
@@ -256,7 +259,7 @@ export const BOOKS = [
     genre: ["Fable", "Children's Literature"],
     description:
       "A philosophical novella about a young prince's journey through the universe.",
-    cover_image: "./image/26.png",
+    cover_image: "/image/26.png",
   },
   {
     id: 27,
@@ -265,7 +268,7 @@ export const BOOKS = [
     publication_year: 2005,
     genre: ["Historical Fiction", "War"],
     description: "A story of a girl living in Nazi Germany, narrated by Death.",
-    cover_image: "./image/27.jpg",
+    cover_image: "/image/27.jpg",
   },
   {
     id: 28,
@@ -274,7 +277,7 @@ export const BOOKS = [
     publication_year: 1969,
     genre: ["Satire", "Science Fiction"],
     description: "An anti-war novel that mixes science fiction and dark humor.",
-    cover_image: "./image/28.jpg",
+    cover_image: "/image/28.jpg",
   },
   {
     id: 29,
@@ -284,7 +287,7 @@ export const BOOKS = [
     genre: ["Historical Fiction", "Social Commentary"],
     description:
       "A novel about the plight of migrant workers during the Great Depression.",
-    cover_image: "./image/29.jpg",
+    cover_image: "/image/29.jpg",
   },
   {
     id: 30,
@@ -294,7 +297,7 @@ export const BOOKS = [
     genre: ["Dystopian", "Science Fiction"],
     description:
       "A dystopian novel depicting a future society where books are banned.",
-    cover_image: "./image/30.jpg",
+    cover_image: "/image/30.jpg",
   },
   {
     id: 31,
@@ -304,7 +307,7 @@ export const BOOKS = [
     genre: ["Dystopian", "Psychological Fiction"],
     description:
       "A novel about a group of British boys stranded on an uninhabited island.",
-    cover_image: "./image/31.jpg",
+    cover_image: "/image/31.jpg",
   },
   {
     id: 32,
@@ -314,7 +317,7 @@ export const BOOKS = [
     genre: ["Science Fiction", "Comedy"],
     description:
       "A comedic science fiction series about the misadventures of Arthur Dent.",
-    cover_image: "./image/32.jpg",
+    cover_image: "/image/32.jpg",
   },
   {
     id: 33,
@@ -324,7 +327,7 @@ export const BOOKS = [
     genre: ["Historical Fiction", "Classic"],
     description:
       "A historical novel set during the French Revolution, exploring themes of sacrifice and resurrection.",
-    cover_image: "./image/33.png",
+    cover_image: "/image/33.png",
   },
   {
     id: 34,
@@ -334,7 +337,7 @@ export const BOOKS = [
     genre: ["Fantasy", "Children's Literature"],
     description:
       "A series of fantasy novels set in the magical land of Narnia.",
-    cover_image: "./image/34.jpg",
+    cover_image: "/image/34.jpg",
   },
   {
     id: 35,
@@ -344,7 +347,7 @@ export const BOOKS = [
     genre: ["Dystopian", "Feminist Fiction"],
     description:
       "A dystopian novel set in a totalitarian society where women are subjugated.",
-    cover_image: "./image/35.jpg",
+    cover_image: "/image/35.jpg",
   },
   {
     id: 36,
@@ -353,7 +356,7 @@ export const BOOKS = [
     publication_year: 1980,
     genre: ["Historical Fiction", "Mystery"],
     description: "A medieval mystery novel set in an Italian monastery.",
-    cover_image: "./image/36.jpg",
+    cover_image: "/image/36.jpg",
   },
   {
     id: 37,
@@ -362,7 +365,7 @@ export const BOOKS = [
     publication_year: 1925,
     genre: ["Absurdist Fiction", "Existential"],
     description: "A surreal novel exploring themes of guilt, law, and justice.",
-    cover_image: "./image/37.png",
+    cover_image: "/image/37.png",
   },
   {
     id: 38,
@@ -372,7 +375,7 @@ export const BOOKS = [
     genre: ["Historical Fiction", "Drama"],
     description:
       "A novel about friendship, redemption, and the impact of war in Afghanistan.",
-    cover_image: "./image/38.jpg",
+    cover_image: "/image/38.jpg",
   },
   {
     id: 39,
@@ -382,7 +385,7 @@ export const BOOKS = [
     genre: ["Historical Fiction", "Adventure"],
     description:
       "An epic historical novel set in 12th-century England, centered around the construction of a cathedral.",
-    cover_image: "./image/39.jpg",
+    cover_image: "/image/39.jpg",
   },
   {
     id: 40,
@@ -392,7 +395,7 @@ export const BOOKS = [
     genre: ["Mystery", "Gothic"],
     description:
       "A mystery novel set in post-war Barcelona, revolving around a forgotten book and its author.",
-    cover_image: "./image/40.jpg",
+    cover_image: "/image/40.jpg",
   },
   {
     id: 41,
@@ -402,7 +405,7 @@ export const BOOKS = [
     genre: ["Children's Literature", "Classic"],
     description:
       "A classic children's novel about a young girl who discovers a hidden garden.",
-    cover_image: "./image/41.png",
+    cover_image: "/image/41.png",
   },
   {
     id: 42,
@@ -412,7 +415,7 @@ export const BOOKS = [
     genre: ["Dystopian", "Young Adult"],
     description:
       "A dystopian novel about a society with strict control over emotions and memories.",
-    cover_image: "./image/42.jpg",
+    cover_image: "/image/42.jpg",
   },
   {
     id: 43,
@@ -422,7 +425,7 @@ export const BOOKS = [
     genre: ["Absurdist Fiction", "Existential"],
     description:
       "A novella about a man who wakes up one morning transformed into a giant insect.",
-    cover_image:"./image/43.jpg",
+    cover_image:"/image/43.jpg",
   },
   {
     id: 44,
@@ -432,7 +435,7 @@ export const BOOKS = [
     genre: ["Historical Fiction", "Romance"],
     description:
       "A historical novel set during the American Civil War, centered around Scarlett O'Hara.",
-    cover_image: "./image/44.jpg",
+    cover_image: "/image/44.jpg",
   },
   {
     id: 45,
@@ -442,7 +445,7 @@ export const BOOKS = [
     genre: ["Children's Literature", "Fantasy"],
     description:
       "A children's novel about the adventures of anthropomorphic animals.",
-    cover_image: "./image/45.jpg",
+    cover_image: "/image/45.jpg",
   },
   {
     id: 46,
@@ -452,7 +455,7 @@ export const BOOKS = [
     genre: ["Gothic", "Horror"],
     description:
       "A Gothic horror novel about the vampire Count Dracula's attempt to move to England.",
-    cover_image: "./image/46.jpg",
+    cover_image: "/image/46.jpg",
   },
   {
     id: 47,
@@ -462,7 +465,7 @@ export const BOOKS = [
     genre: ["Adventure", "Nature"],
     description:
       "An adventure novel about a domestic dog's life in the wilds of the Yukon.",
-    cover_image:"./image/47.jpg",
+    cover_image:"/image/47.jpg",
   },
   {
     id: 48,
@@ -472,7 +475,7 @@ export const BOOKS = [
     genre: ["Horror", "Post-Apocalyptic"],
     description:
       "A post-apocalyptic horror novel about a deadly pandemic and its aftermath.",
-    cover_image: "./image/48.jpg",
+    cover_image: "/image/48.jpg",
   },
   {
     id: 49,
@@ -482,7 +485,7 @@ export const BOOKS = [
     genre: ["Fiction", "Historical"],
     description:
       "A novel about the life of African-American women in the Southern United States.",
-    cover_image: "./image/49.jpg",
+    cover_image: "/image/49.jpg",
   },
   {
     id: 50,
