@@ -3,18 +3,21 @@ import { BOOKS } from "../utils/DummyBooks";
 
 export const initialState = {
   books: BOOKS,
-  searched: BOOKS,
+  image:""
 };
 
 const Book = createSlice({
   name: "Book",
   initialState: initialState,
   reducers: {
-    AddNewBook: (state, action) => {
+    AddBook: (state, action) => {
       state.books.push(action.payload);
     },
+    SetImage:(state,action)=>{
+      state.image=action.payload;
+    }
   },
 });
 
-export const { SearchBook, AddNewBook } = Book.actions;
+export const {  AddBook,SetImage } = Book.actions;
 export default Book.reducer;

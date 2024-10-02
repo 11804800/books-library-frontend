@@ -177,20 +177,25 @@
 /* footer input */
 .footer-input {
   outline: none;
-  padding: 6px 8px;
-  /* background:rgb(168, 198, 255); */
+  padding: 6px 12px;
+  border:1px solid rgba(36, 36, 230, 0.32);
   font-weight: 600;
-  border-radius: 3px;
+  border-radius: 18px;
+}
+
+.footer-input:focus
+{
+  border:1px solid brown;
 }
 
 /* footer form btn */
 .footer-form-btn {
-  padding: 7px;
+  padding: 7px 14px;
   font-weight: 600;
   background: brown;
   color: white;
-  border-radius: 3px;
-  box-shadow: 1px 3px 4px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 18px;
+  box-shadow: 1px 2px 2px 3px rgba(0, 0, 0, 0.2);
   border: none;
   outline: none;
 }
@@ -749,30 +754,179 @@
 /* ============================Add New Book Component ==============================*/
 .add-new-book-form-container {
   display: flex;
-  flex-direction: column;
   gap: 23px;
-  width: 60%;
+  width: 100%;
   padding: 12px 8px;
   box-shadow: 1px 3px 4px 4px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
+  justify-content: center;
+  align-items: center;
 }
+
+.b
 
 .add-new-book-form-container h1 {
   font-size: 1.27rem;
   font-family: Roboto;
   font-weight: 600;
+  padding: 14px;
+}
+
+.form-book-image
+{
+  width:40%;
+  padding: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80dvh;
+}
+
+.book-img-input-con
+{
+  display: flex;
+  height: 100%;
+  width:100%;
+  flex-direction: column;
+  gap:24px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  justify-content: center;
+  align-items: center;
+  border:1px solid black;
+  padding: 24px;
+}
+
+.input-image-btn
+{
+  padding: 5px 12px;
+  border:none;
+  box-shadow: 1px 2px 3px 4px rgba(0, 0, 0, 0.2);
+  font-weight: 600;
+  border-radius: 4px;
+  color:white;
+  background: #000;
+  width: fit-content;
+  border:2px solid transparent;
+}
+
+
+.input-image-btn:hover
+{
+  background: #393737;
+  color: rgb(255, 248, 248);
+  box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.input-image-btn:active
+{
+  color:black;
+  background: white;
+  border-color: black;
+}
+
+.form-book-image img
+{
+  width:100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 4px;
+  padding: 6px;
 }
 
 .add-new-book-form {
   display: flex;
   flex-direction: column;
-  gap: 12px;
-  padding: 12px;
+  gap: 34px;
+  padding: 23px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 600;
+  width: 50%;
+}
+
+.input
+{
+  padding: 6px 14px;
+  border: none;
+  background: rgba(36, 36, 230, 0.12);
+  border-radius: 12px;
+  outline: none;
+  border:2px solid transparent;
   font-weight: 600;
 }
 
-/* Error Page */
+.input:focus
+{
+  border-color:rgba(36, 36, 230, 0.69);
+}
+
+.flex-col
+{
+  display: flex;
+  flex-direction: column;
+  gap:8px;
+}
+
+.flex-row
+{
+  display: flex;
+  gap:24px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.genre-select-con,.genre-select
+{
+  display: flex; 
+  gap:12px;
+  align-items: center;
+  width: 100%;
+}
+
+.select{
+  width:80%;
+  font-weight: 600;
+  padding: 4px 5px;
+  width: fit-content;
+  border: none;
+  background: rgba(36, 36, 230, 0.32);
+  border-radius: 2px;
+  outline: none;
+  border:2px solid transparent;
+}
+
+.select:focus
+{
+  border-color:rgba(36, 36, 230, 0.69);
+}
+
+.submit-btn
+{
+  padding: 5px 12px;
+  font-weight: 600;
+  width: fit-content;
+  border: none;
+  background: rgba(36, 36, 230, 0.79);
+  color:white;
+  box-shadow: 1px 2px 3px 2px rgba(0, 0, 0, 0.2);
+  outline: none;
+  border-radius:2px;
+  border: 2px solid transparent;
+}
+
+.submit-btn:hover
+{
+  background: rgba(36, 36, 230, 0.69);
+  box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.submit-btn:active
+{
+  color: rgba(36, 36, 230, 0.79);
+  background: white;
+  border-color: rgba(36, 36, 230, 0.79);
+}
+
+/*=============================================Error Page ==================================*/
 
 .error-container {
   display: flex;
@@ -825,8 +979,28 @@
 .sub-container p {
   color: rgba(0, 0, 0, 0.4);
 }
+
+.required
+{
+  color:brown;
+  font-weight: 600;
+  font-size: .8rem;
+}
+
 /*========================================================= Meadia Query================================== */
 
+
+/* for 1200px */
+@media (max-width:1200px) {
+  .genre-select-con
+  {
+    flex-direction: column;
+  }
+
+}
+
+
+/* //for max-width 768px */
 @media (max-width: 768px) {
   .search-input {
     width: 300px;
@@ -884,7 +1058,7 @@
   }
 
   .add-new-book-form-container {
-    width: 100%;
+    flex-direction: column;
   }
 
   .add-new-book-form {
@@ -906,5 +1080,18 @@
   {
     width: 100%;
     height: 100%;
+  }
+
+  .genre-select-con
+  {
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+  }
+
+  .book-img-input-con,.form-book-image
+  {
+    width: 100%;
+    border: none;
   }
 }

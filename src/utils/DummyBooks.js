@@ -636,3 +636,22 @@ export const BOOKS = [
     popular:true
   }
 ];
+
+
+export const Genre=[
+  "Comedy",
+  "Romance",
+  "Horror",
+  "Science Fiction",
+  "War",
+  "Classic",
+  "Adventure",
+  "Mystery",
+  "Mythology",
+  "Drama",
+  "Epic",
+  "Poetry",
+  "Gothic",
+  "Children",
+  "Nature"
+]
