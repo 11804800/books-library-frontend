@@ -59,6 +59,7 @@ function AddNewBook() {
     }
   }
 
+
   return (
     <div className="container">
       <div className="breadcrumb-container">
@@ -68,7 +69,7 @@ function AddNewBook() {
         </Link>
         /<p>Add New Book</p>
       </div>
-      <h1>Add New Book</h1>
+      <h1 style={{ fontFamily: "Roboto" }}>Add New Book</h1>
       <div className="add-new-book-form-container">
         <div className="form-book-image">
           {image ? (
@@ -162,13 +163,15 @@ function AddNewBook() {
             />
           </div>
           <div className="flex-col">
-            <label >Rating : </label>
+            <label>Rating : </label>
             <input
               type="number"
               className="input"
               required
               name="rating"
               onChange={(e) => OnValueChange(e)}
+              min="0"
+              max="5"
             />
           </div>
           <div className="flex-col">
